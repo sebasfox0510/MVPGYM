@@ -13,6 +13,7 @@ import android.widget.DatePicker;
 import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 /**
@@ -48,7 +49,7 @@ public class FragmentInicio extends Fragment {
         btnFecha.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                fecha.setText("Usted selecciono la fecha: "+ picker.getDayOfMonth()+"/"+ (picker.getMonth() + 1)+"/"+picker.getYear());
+                fecha.setText("Usted selecciono la fecha: "+ picker.getDayOfMonth()+"/"+ (picker.getMonth() + 1)+"/"+picker.getYear()+"\n A las: "+opciones.getSelectedItem().toString());
             }
         });
 
