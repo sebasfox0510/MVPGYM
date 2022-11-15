@@ -59,6 +59,20 @@
             android:layout_marginRight="30dp"
             android:layout_marginTop="15dp"
             android:alpha="0.5"
+            android:hint="Rol"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:fontFamily="sans-serif"
+            android:id="@+id/txtRol"
+            android:background="@drawable/bordes_redondos"></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:alpha="0.5"
             android:hint="Email"
             android:textColorHint="#ffffff"
             android:textColor="#ffffff"
