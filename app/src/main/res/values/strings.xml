@@ -18,6 +18,15 @@
     <string name="horarios3">Domingos y Festivos(No hay servicio)</string>
     <string name="reglas">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textosy los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas Letraset,las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum</string>
 
+    <string-array name="opciones">
+        <item>6:00 am - 8:00 am</item>
+        <item>8:00 am - 10:00 am</item>
+        <item>10:00 am - 12:00 pm</item>
+        <item>12:00 pm - 2:00 pm</item>
+        <item>2:00 pm - 4:00 pm</item>
+        <item>4:00 pm - 6:00 pm</item>
+        <item>6:00 pm - 8:00 pm</item>
+    </string-array>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
