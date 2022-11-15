@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="MENU PRINCIPAL">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_inico"
+                    android:icon="@drawable/edit2"
+                    android:title="Reserva" />
+                <item
+                    android:id="@+id/nav_youtube"
+                    android:icon="@drawable/calendar2"
+                    android:title="Horarios" />
+            </group>
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_email"
+            android:icon="@drawable/gym2"
+            android:title="Mis Reservas" />
+    </group>
+
+    <item android:title="COMUNICACIÓN">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_nosotros"
+                    android:icon="@drawable/icon_nosotros"
+                    android:title="Reglamento" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
